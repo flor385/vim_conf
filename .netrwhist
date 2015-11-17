@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/flor385/Projects/text_analysis/ml/theano'
 let g:netrw_dirhist_2='/home/flor385/Projects/text_analysis/njuska_pers'
 let g:netrw_dirhist_3='/usr/share/vim/vim74/doc'
 let g:netrw_dirhist_4='/home/flor385/Projects/text_analysis/njuska_pers'
+let g:netrw_dirhist_5='/home/flor385/Projects/text_analysis'
