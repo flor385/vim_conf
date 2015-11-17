@@ -42,6 +42,7 @@ set background=light
 colorscheme solarized
 
 " automatically start some stuff
+let g:NERDTreeDirArrows=0
 autocmd VimEnter * NERDTreeToggle
 autocmd VimEnter * wincmd l
 autocmd VimEnter * vspl
