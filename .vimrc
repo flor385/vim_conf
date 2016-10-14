@@ -9,11 +9,12 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " The bundles you install will be listed here
-Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
 Bundle 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'Konfekt/FastFold'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
 " NerdTree
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']

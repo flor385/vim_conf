@@ -14,6 +14,7 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 " Python-mode use p3
 let g:pymode_python = 'python3'
+let g:jedi#force_py_version = 3
 
 " Python-mode
 " Activate rope
