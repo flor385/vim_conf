@@ -1,8 +1,8 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
@@ -15,6 +15,8 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'Konfekt/FastFold'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
+
+call vundle#end()
 
 " NerdTree
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
@@ -43,6 +45,7 @@ set background=light
 colorscheme solarized
 
 " automatically start some stuff
+let g:NERDTreeDirArrows=0
 autocmd VimEnter * NERDTreeToggle
 autocmd VimEnter * wincmd l
 autocmd VimEnter * vspl
