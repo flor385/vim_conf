@@ -63,8 +63,8 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 let g:pymode_folding = 1
 
 " ensure pymode linting is done
-au BufWriteCmd *.py write || :PymodeLint
-let g:pymode_lint_unmodified = 1
+" au BufWriteCmd *.py write || :PymodeLint
+" let g:pymode_lint_unmodified = 1
 
 " speed things up by disabling automatic method signature
 let g:jedi#show_call_signatures = 0
