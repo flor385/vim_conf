@@ -42,7 +42,7 @@ set laststatus=2
 set scrolloff=5
 
 " autoformat with clang-format
-set formatprg=clang-format\ -style=file
+autocmd BufNewFile,BufRead *.cpp set formatprg=clang-format\ -style=file
 
 
 "-----------------------------------------------------------------------
@@ -85,3 +85,9 @@ let g:NERDTreeDirArrows=0
 " Tagbar
 let g:tagbar_sort=0
 map <F3> :TagbarToggle<CR>
+
+" PyMode
+let g:pymode_python = 'python3'
+
+" Autoformat Python
+au FileType python setlocal formatprg=autopep8\ --aggressive\ --max-line-length=80\ -
