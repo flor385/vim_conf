@@ -5,6 +5,7 @@ call pathogen#helptags()
 
 set background=light
 colorscheme solarized
+set t_Co=16
 
 " make bar splits prettier
 set fillchars-=vert:\| | set fillchars+=vert:\ 
@@ -88,6 +89,9 @@ map <F3> :TagbarToggle<CR>
 
 " PyMode
 let g:pymode_python = 'python3'
+
+" Syntastic
+let g:syntastic_python_python_exec = 'python3'
 
 " Autoformat Python
 au FileType python setlocal formatprg=autopep8\ --aggressive\ --max-line-length=80\ -
